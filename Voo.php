@@ -8,11 +8,11 @@ class Voo
     private int $destino;
     private array $coordenadas;
 
-    public function __construct($numeroVoo, $origem, $destino)
+    public function __construct()
 {
-    $this->numeroVoo = $numeroVoo;
-    $this->origem = $origem;
-    $this->destino = $destino;
+    $this->numeroVoo = 0;
+    $this->origem = 0;
+    $this->destino = 0;
     $this->coordenadas = $this->coordenadas();
 }
 

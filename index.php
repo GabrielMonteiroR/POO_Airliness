@@ -12,7 +12,11 @@ require_once "Aeronave.php";
 26. Rio Branco
 */
 
-$voo = new Voo(1222,1,25);
+$voo = new Voo();
+
+$voo -> setnumeroVoo(1222);
+$voo -> setorigem(16);
+$voo -> setdestino(22);
 
 echo "Origem: ".$voo->getOrigemNomeCidade()."\n"; 
 echo "Destino: ".$voo->getDestinoNomeCidade()."\n";
