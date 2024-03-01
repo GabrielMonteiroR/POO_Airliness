@@ -16,6 +16,7 @@ $voo = new Voo(1222,1,25);
 
 echo "Origem: ".$voo->getOrigemNomeCidade()."\n"; 
 echo "Destino: ".$voo->getDestinoNomeCidade()."\n";
-echo $voo -> calcularDistanciaDeVoo();
+echo round($voo->calcularDistanciaDeVoo(), 2)." KM APROXIMADOS.";
+
 
 ?>

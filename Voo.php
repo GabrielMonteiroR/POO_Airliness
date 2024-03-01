@@ -8,7 +8,7 @@ class Voo
     private int $destino;
     private array $coordenadas;
 
-    public function __construct()
+    public function __construct($numeroVoo, $origem, $destino)
 {
     $this->numeroVoo = $numeroVoo;
     $this->origem = $origem;
